@@ -112,7 +112,7 @@ export default {
     },
     async getTransactionId() {
       const tidUrl =
-        'https://peaceful-wiles-7eb948.netlify.app/.netlify/functions/getFriendlyHash';
+        'https://peaceful-mcclintock-98ad91.netlify.app/.netlify/functions/getFriendlyHash';
       const now = new Date().getTime();
       const tid = await this.$axios.$get(`${tidUrl}?inputSeed=${now}`);
       return tid;
