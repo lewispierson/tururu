@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="card__container">
-      <h3>Out of ideas?</h3>
+      <h2>Out of Gift Ideas?</h2>
       <p>
         <br />
-        Tururu, that's Hawiiiiiian for
-        <code>surprise</code>. If you order one, you will not know beforehand
+        Tururu? That's Hawaiiiiiian for
+        <span class="txt-is-bold">surprise</span>. If you order one, you will not know beforehand
         what you are actually going to get. That's why they are perfect gifts
         for people you don't reaaally know.
         <br />
@@ -15,14 +15,14 @@
         why each tururu comes with the offical
         <br />
         <br />
-        <code>world-peace-supporter-certificate</code>
+        <span class="txt-is-bold">world-peace-supporter-certificate</span>
         <br />
         <br />
 
         So be like Gandhi, Mother Theresa, and us and
       </p>
       <nuxt-link to="/checkout/personalization">
-        <button class="btn btn--primary">get a tururu</button>
+        <button class="btn btn--primary">Get a tururu</button>
       </nuxt-link>
     </div>
   </div>

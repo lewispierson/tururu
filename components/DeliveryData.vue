@@ -2,7 +2,7 @@
   <div>
     <div class="card__container">
       <span v-if="editable">
-        <h2>where do you want us to send it?</h2>
+        <h2>Where do you want us to send it?</h2>
         <p>Put here either your address or the address of whoever you want the tururu to receive.</p>
       </span>
       <div class="txt-is-error" v-if="errors.length">

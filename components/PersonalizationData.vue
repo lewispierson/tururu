@@ -2,9 +2,9 @@
   <div>
     <span v-if="editable">
       <div class="card__container">
-        <h2>want to personalize it?</h2>
+        <h2>Want to Personalize it?</h2>
         <label for="personalization"
-          >write a personal message that you or your friend will get with their
+          >Write a personal message that you or your friend will get with their
           tururu :)
         </label>
         <textarea
@@ -22,7 +22,7 @@
       </div>
     </span>
     <span v-else-if="personalization">
-        your personal message:
+        Your personal message:
       <textarea
         class="input__field"
         style="width: 100%"

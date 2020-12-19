@@ -2,7 +2,8 @@
   <div style="position: relative; min-height: 100vh;">
     <nav class="nav__container">
       <nuxt-link to="/">
-        <h1 class="txt-is-primary">tururu</h1>
+        <h1 class="txt-is-primary txt-is-fancy">tururu</h1>
+        <img class="nav__hippo-logo" src="hippo_logo.png">
       </nuxt-link>
     </nav>
     <nuxt style="margin:auto;"/>

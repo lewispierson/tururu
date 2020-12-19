@@ -1,6 +1,6 @@
 .nav__container {
   position: relative;
-  width: 100%;
+  max-width: 100%;
   display: grid;
   justify-items: center;
   align-items: center;
@@ -25,6 +25,10 @@
   & img {
     height: 6rem;
   }
+}
+
+.nav__hippo-logo {
+  max-width: 50%;
 }
 
 .nav__links {
@@ -90,6 +94,7 @@ footer {
 
 .card__container {
   max-width: $phoneBreakpoint;
+  text-align: center;
   background-color: $colorBright;
   color: $colorDark;
   border-radius: 1rem;
@@ -99,6 +104,9 @@ footer {
     background-color: $colorPrimary;
     color: $colorDark;
   }
+  @media screen and (max-width: $phoneBreakpoint) {
+    margin: 1.4rem 1rem;
+    }
 }
 
 button {
@@ -187,3 +195,4 @@ button {
     background-image: linear-gradient($colorBright, $colorPrimary);
   }
 }
+

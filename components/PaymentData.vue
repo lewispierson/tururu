@@ -8,7 +8,7 @@
           : ''
       "
     >
-      <h2 v-if="editable">how do you wish to pay?</h2>
+      <h2 v-if="editable">How do you wish to pay?</h2>
       <!-- START: editable payment provider -->
       <div class="grid__container--2c" v-if="editable">
         <div
